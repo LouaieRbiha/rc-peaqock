@@ -9,7 +9,9 @@
     "postinstall": "npx husky install && npx sort-package-json",
     "lint-staged": "lint-staged --config lint-staged.js",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "version:patch": "npm version patch",
+    "postbuild": "npm run version:patch"
   },
   "browserslist": {
     "production": [
