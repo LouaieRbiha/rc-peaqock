@@ -17,3 +17,4 @@
 
 15- create a develop and release branches with `git checkout -b branch-name`
 16- Setup repository settings (merge requests, code reviews, force pushes ...).
+17- To add settings to multiple branches use this some regex pattern like `[master;release]*`.
